@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html, body, div {height:100%;}
+.col-md-4 {
+    float:left;
+    width:33.333333333%;
+    background-size:cover;
+}
+
+.fill{
+    height:100%;
+    min-height:100%;
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-color: #000000;    
+}
+
+.fill-hotel{
+    background-image: url('/pics/sarov.jpg');
+}
+.fill-arz {
+    background-image: url('/pics/arzamas-vadimrazumov.jpg');
+}
+.fill-diveevo {
+    background-image: url('/pics/diveevo.jpg');
+}
+</style>
+
+<body>
+<div class="row intro-div no-gutters">
+    <a href="/arzamas"><div class="col-md-4 fill fill-arz"></div></a>
+    <a href="/diveevo"><div class="col-md-4 fill fill-diveevo"></div></a>
+    <a href="/sarov"><div class="col-md-4 fill fill-hotel"></div></a>
+</div>
+</body>
+</html>
