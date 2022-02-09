@@ -1,0 +1,39 @@
+[articles]
+    read_more = "Читать далее"
+    words = "слов"
+    readingtime = "мин"
+    share = "Поделиться"
+    comments = "Комментарии"
+
+# Linked older/newer posts at the bottom of each one
+[articles.linked_posts]
+    older = "Старые"
+    newer = "Новые"
+
+[search]
+    placeholder = "Поиск"
+
+[pagination]
+    previous = "Предыдущие"
+    next = "Следующие"
+
+[profile]
+    follow_button = "Follow"
+    tags = "теги"
+    posts = "посты"
+
+[page_not_found]
+    title = "404 - страница не найдена"
+    subtitle = "Похоже, что этой страницы не существует"
+
+[widgets.categories]
+    title = "Категории"
+
+[widgets.recent_articles]
+    title = "Последние записи"
+
+[widgets.tag_cloud]
+    title = "Облаго тегов"
+
+[widgets.tags]
+    title = "Теги"

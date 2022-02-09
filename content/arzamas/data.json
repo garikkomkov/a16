@@ -1,0 +1,9 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {"type": "Feature", "id": 0, "geometry": {"type": "Point", "coordinates": [55.392372, 43.832915]}, "properties": {"balloonContent": "Арзамас", "clusterCaption": "Щелкните для увеличения", "hintContent": "город Арзамас"}}
+		
+    ]
+}
+
+

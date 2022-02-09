@@ -1,0 +1,9 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {"type": "Feature", "id": 0, "geometry": {"type": "Point", "coordinates": [55.040178, 43.245406]}, "properties": {"balloonContent": " Дивеево", "clusterCaption": "Щелкните для увеличения", "hintContent": "село Дивеево"}}
+		
+    ]
+}
+
+

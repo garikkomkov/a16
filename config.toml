@@ -1,0 +1,98 @@
+baseurl = "https://arzamas-16.ru"
+disablePathToLower = false
+languageCode = "ru"
+title = "Apex Legends и Overwatch"
+theme = "octo2"
+
+# Number of blog posts displayed in each page
+paginate = 5
+
+[permalinks]
+post = "/:title/" # change the post URL to look like the old ones
+
+# Make tags and categories work
+[indexes]
+	tag = "tag"
+	category = "cat"
+
+[params]
+	sidebarMenuHeader = ""
+	sidebarMenuEnabled = true
+	sidebarRecentLimit = 0
+	sidebarNewWindow = true
+	disableReadingTime = true
+sidebarHeader = "Полезные ссылки:"
+sidebarText = """
+[Системные требования Apex Legends](/apex-legends-systemnye-trebovaniya)  
+[Скачать 下载 Apex Legends](/apex-legends-skachat)  
+"""
+
+	# If false, all of the post will appear on front page (and in pagination)
+	truncate = false
+
+	# Author's name (this will appear in metadata and under posts)
+	author = "apexfan"
+
+	# This text appears in the site header under website title
+	subtitle = "Самая популярная бесплатная королевская битва и самый популярный командный шутер"
+
+	# Used in the search engine
+	searchEngineURL = "https://www.google.com/search"
+
+	# Text of the "Continue Reading" label. &rarr; == right arrow, but it gets messed up in the string so we will add it to index.html manually
+	continueReadingText = "Читать далее"
+
+	# Google analytics code
+	googleAnalytics = "UA-9303857-11"
+
+	# Disqus shortcode
+	# Disable comments for a specific post by adding "comments: false" in its frontmatter
+	# disqusShortname = "arzamas-16"
+
+	rss = true  # switch to true to enable RSS icon link
+
+  # Set to true to use a text label for RSS instead of an icon
+  # This is overwritten by the `rss` setting
+  textrss = false
+
+	# Website's default description
+	defaultDescription = ""
+
+	# Populate this with your own search keywords - these will appear in the meta tags
+	# defaultKeywords = ["саров" , "администрация" , "происшествия" , "политика"]
+
+[[menu.main]]
+  Name = "Новости"
+  URL = "/"
+  weight = -10
+
+[[menu.main]]
+  Name = "Герои Apex Legends"
+  URL = "/apex-legends-heroes"
+  weight = -5
+
+[[menu.main]]
+  Name = "Что такое Apex Legends?"
+  URL = "/chto-takoe-apex-legends"
+  weight = -10
+
+# [[menu.main]]
+#  Name = "Что такое Overwatch?"
+#  URL = "/chto-takoe-overwatch"
+#  weight = -10
+
+# [[menu.sidebar]]
+#  Name = "Администрация"
+#  URL = "http://adm.sarov.com"
+#  weight = 0
+
+# [[menu.sidebar]]
+#  Name = "Городская Дума"
+#  URL = "http://duma-sarov.ru"
+#  weight = 1
+
+# [[menu.sidebar]]
+#  Name = "РФЯЦ-ВНИИЭФ"
+#  URL = "http://vniief.ru"
+#  weight = 1
+

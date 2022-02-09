@@ -1,0 +1,6 @@
+User-agent: *	
+Disallow: /categories/
+Disallow: /tags/
+Host: https://arzamas-16.ru
+
+Sitemap: http://arzamas-16.ru/sitemap.xml

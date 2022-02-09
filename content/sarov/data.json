@@ -1,0 +1,9 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {"type": "Feature", "id": 0, "geometry": {"type": "Point", "coordinates": [54.925456, 43.328797]}, "properties": {"balloonContent": "Саров", "clusterCaption": "Щелкните для увеличения", "hintContent": "город Саров"}}
+		
+    ]
+}
+
+
