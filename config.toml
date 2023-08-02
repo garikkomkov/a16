@@ -19,9 +19,9 @@ post = "/:title/" # change the post URL to look like the old ones
 
 [params]
 	sidebarMenuHeader = ""
-	sidebarMenuEnabled = true
+	sidebarMenuEnabled = false
 	sidebarRecentLimit = 0
-	sidebarNewWindow = true
+	sidebarNewWindow = true    
 	disableReadingTime = true
     dateformat = "02.01.2006"
     showReadTime = false
@@ -71,15 +71,15 @@ sidebarText = """
   URL = "/"
   weight = -10
 
-[[menu.main]]
-  Name = "Карта Сарова"
-  URL = "/karta-sarova"
-  weight = -5
+# [[menu.main]]
+#  Name = "Карта Сарова"
+#  URL = "/karta-sarova"
+#  weight = -5
 
-[[menu.main]]
-  Name = "Организации"
-  URL = "/biznes"
-  weight = -10
+# [[menu.main]]
+#  Name = "Организации"
+#  URL = "/biznes"
+#  weight = -10
 
 # [[menu.main]]
 #  Name = "Что такое Overwatch?"

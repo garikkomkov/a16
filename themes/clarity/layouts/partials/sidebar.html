@@ -55,12 +55,12 @@
         {{ end }}
       </ul>
     {{ end }}
-
+<!--
     {{- $posts := where .Site.RegularPages "Type" "in" $s.mainSections }}
     {{- $featured := default 8 $s.numberOfFeaturedPosts }}
     {{- $featuredPosts := first $featured (where $posts "Params.featured" true)}}
     {{- with $featuredPosts }}
-    <h2 class="mt-4">{{ T "featured_posts" }}</h2>
+     <h2 class="mt-4">{{ T "featured_posts" }}</h2>
     <ul>
       {{- range . }}
       <li>
@@ -77,7 +77,7 @@
         <a href="{{ .Permalink }}" class="nav-link" title="{{ .Title }}">{{ .Title | markdownify }}</a>
       </li>
       {{- end }}
-    </ul>
+    </ul> -->
     {{- $tagsLimit := (default 100 $s.numberOfTagsShown) }}
     {{- range $key, $value := .Site.Taxonomies }}
     {{- if gt $value 0 }}
