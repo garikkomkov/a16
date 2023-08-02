@@ -43,15 +43,3 @@
     {{- end -}}
   {{- end -}}
 {{- end -}}
-
-{{- partial "figure" (
-  dict
-    "file" $file
-    "image" $image
-    "diskPath" $.Page.File.Dir
-    "webPath" $.Page.RelPermalink
-    "alt" $alt
-    "cap" $cap
-    "classes" ($scratch.Get "classes")
-    "bundle" $bundle
-) -}}
