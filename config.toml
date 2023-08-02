@@ -1,11 +1,13 @@
 baseurl = "https://arzamas-16.ru"
 disablePathToLower = false
 languageCode = "ru"
-title = "Apex Legends и Overwatch"
-theme = "octo2"
-
+DefaultContentLanguage = "ru"
+title = "Новости Сарова"
+theme = "clarity"
+#theme = "stack"
+disableHugoGeneratorInject = true
 # Number of blog posts displayed in each page
-paginate = 5
+paginate = 10
 
 [permalinks]
 post = "/:title/" # change the post URL to look like the old ones
@@ -21,17 +23,20 @@ post = "/:title/" # change the post URL to look like the old ones
 	sidebarRecentLimit = 0
 	sidebarNewWindow = true
 	disableReadingTime = true
+    dateformat = "02.01.2006"
+    showReadTime = false
+    
 sidebarHeader = "Полезные ссылки:"
 sidebarText = """
-[Системные требования Apex Legends](/apex-legends-systemnye-trebovaniya)  
-[Скачать 下载 Apex Legends](/apex-legends-skachat)  
+[Карта Сарова](/karta-sarova)  
+[pogoda-v-sarove](/pogoda-v-sarove)  
 """
 
 	# If false, all of the post will appear on front page (and in pagination)
 	truncate = false
 
 	# Author's name (this will appear in metadata and under posts)
-	author = "apexfan"
+	author = "writer"
 
 	# This text appears in the site header under website title
 	subtitle = "Самая популярная бесплатная королевская битва и самый популярный командный шутер"
@@ -67,13 +72,13 @@ sidebarText = """
   weight = -10
 
 [[menu.main]]
-  Name = "Герои Apex Legends"
-  URL = "/apex-legends-heroes"
+  Name = "Карта Сарова"
+  URL = "/karta-sarova"
   weight = -5
 
 [[menu.main]]
-  Name = "Что такое Apex Legends?"
-  URL = "/chto-takoe-apex-legends"
+  Name = "Организации"
+  URL = "/biznes"
   weight = -10
 
 # [[menu.main]]
@@ -96,3 +101,7 @@ sidebarText = """
 #  URL = "http://vniief.ru"
 #  weight = 1
 
+[markup.goldmark.renderer]
+    unsafe= true
+    
+ignoreErrors = ["error-remote-getjson"]

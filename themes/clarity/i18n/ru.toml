@@ -1,0 +1,72 @@
+[read_more]
+other = "Читать далее"
+
+[copyright]
+other = "Сайт разработан:"
+
+[all_rights]
+other = "Все права защищены"
+
+[share_on]
+other = "Копировать ссылку"
+
+[featured_posts]
+other = "Похожие записи"
+
+[recent_posts]
+other = "Последние записи"
+
+[404_title]
+other = "Lost"
+
+[could_not_find]
+other = "We couldn't find the page you're looking for"
+
+[go_back]
+other = "Назад"
+
+[translations]
+other = "Translations"
+
+[categories]
+other = "Категории"
+
+[tags]
+other = "Теги"
+
+[series]
+other = "Серии"
+
+[all_categories]
+other = "Все категории"
+
+[all_tags]
+other = "Все теги"
+
+[all_series]
+other = "Все серии"
+
+[overview]
+other = "Обзор"
+
+[reading_time]
+other = "{{ .ReadingTime }} минут на чтение"
+
+[series_posts]
+other = "Публикаций в этой серии"
+
+# search
+[quick_links]
+  other = "Результаты"
+[no_matches]
+  other = "Ничего не найдено"
+[search_field_placeholder]
+  other = "Искать"
+[blog_search_field_placeholder]
+  other = "Искать..."
+[search_results_label]
+  other = "Результаты поиска"
+[short_search_query]
+  other = "Запрос слишком короткий"
+[type_to_search]
+  other = "Напишите здесь для поиска"
